@@ -20,7 +20,9 @@
     "test:curriculum": "cd ./curriculum && npm test && cd ../",
     "test:guide-directories": "node ./tools/scripts/ci/ensure-guide-page-naming.js",
     "test:server": "echo 'Warning: TODO - Define Testing.'",
-    "test:tools": "jest ./tools"
+    "test:tools": "jest ./tools",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -37,5 +39,9 @@
     "shortid": "^2.2.14",
     "slugg": "^1.2.1",
     "tree-kill": "^1.2.0"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.123.0"
   }
 }
