@@ -30,7 +30,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-remark-prismjs": "^3.0.2",
-    "gatsby-source-filesystem": "^2.0.5",
+    "gatsby-source-filesystem": "^2.0.22",
     "gatsby-transformer-remark": "^2.1.8",
     "lodash": "^4.17.10",
     "loop-protect": "^2.1.6",
