@@ -33,7 +33,7 @@
     "body-parser": "^1.13.2",
     "chai": "~3.4.1",
     "compression": "^1.6.0",
-    "connect-mongo": "^1.3.2",
+    "connect-mongo": "^3.0.0",
     "cookie-parser": "^1.4.0",
     "cors": "^2.8.4",
     "csurf": "^1.8.3",
