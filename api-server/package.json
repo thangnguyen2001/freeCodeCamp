@@ -23,7 +23,8 @@
     "test": "npm run test-js",
     "test-js": "npm run test-js-common && npm run test-js-server",
     "test-js-common": "tape -r babel-register \"common/**/*.test.js\" | tap-spec",
-    "test-js-server": "tape -r babel-register \"server/**/*.test.js\" | tap-spec"
+    "test-js-server": "tape -r babel-register \"server/**/*.test.js\" | tap-spec",
+    "prepare": "npm run snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
@@ -74,7 +75,7 @@
     "rollbar": "^2.4.0",
     "rss-parser": "^3.1.2",
     "shortid": "^2.2.12",
-    "snyk": "^1.69.1",
+    "snyk": "^1.316.1",
     "stripe": "^6.1.0",
     "uuid": "^3.0.1",
     "validator": "^9.4.1"
