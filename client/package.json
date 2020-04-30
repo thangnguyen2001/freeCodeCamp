@@ -61,7 +61,8 @@
     "rxjs": "^6.3.3",
     "store": "^2.0.12",
     "validator": "^10.7.0",
-    "webpack-remove-serviceworker-plugin": "^1.0.0"
+    "webpack-remove-serviceworker-plugin": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "gatsby"
@@ -77,7 +78,9 @@
     "format:src": "prettier-eslint --write --trailing-comma none --single-quote './src/**/*.js'",
     "format:utils": "prettier-eslint --write --trailing-comma none --single-quote './utils/**/*.js'",
     "format": "npm run format:gatsby && npm run format:src && npm run format:utils",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-plugin-transform-imports": "^1.5.0",
@@ -94,5 +97,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+  },
+  "snyk": true
 }
