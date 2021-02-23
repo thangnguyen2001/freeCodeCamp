@@ -50,7 +50,7 @@
     "helmet": "^3.1.0",
     "helmet-csp": "^2.1.0",
     "jsonwebtoken": "^8.2.1",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.21",
     "loopback": "^3.16.2",
     "loopback-boot": "^2.27.1",
     "loopback-connector-mongodb": "3.8.0",
@@ -74,7 +74,7 @@
     "rollbar": "^2.4.0",
     "rss-parser": "^3.1.2",
     "shortid": "^2.2.12",
-    "snyk": "^1.69.1",
+    "snyk": "^1.124.1",
     "stripe": "^6.1.0",
     "uuid": "^3.0.1",
     "validator": "^9.4.1"
