@@ -45,7 +45,7 @@
     "express-flash": "~0.0.2",
     "express-session": "^1.12.1",
     "express-state": "^1.2.0",
-    "express-validator": "^5.0.3",
+    "express-validator": "^6.5.0",
     "googleapis": "^16.1.0",
     "helmet": "^3.1.0",
     "helmet-csp": "^2.1.0",
@@ -77,7 +77,7 @@
     "snyk": "^1.69.1",
     "stripe": "^6.1.0",
     "uuid": "^3.0.1",
-    "validator": "^9.4.1"
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
