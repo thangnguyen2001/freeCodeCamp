@@ -72,7 +72,7 @@
     "redux-saga": "^0.16.0",
     "reselect": "^3.0.1",
     "rollbar": "^2.4.0",
-    "rss-parser": "^3.1.2",
+    "rss-parser": "^3.13.0",
     "shortid": "^2.2.12",
     "snyk": "^1.69.1",
     "stripe": "^6.1.0",
