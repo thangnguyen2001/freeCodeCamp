@@ -90,7 +90,7 @@
     "gatsby-transformer-remark": "5.25.1",
     "i18next": "22.5.1",
     "jquery": "3.7.1",
-    "lodash": "4.17.21",
+    "lodash": "4.17.20",
     "lodash-es": "4.17.21",
     "micromark": "4.0.0",
     "monaco-editor": "0.28.1",
