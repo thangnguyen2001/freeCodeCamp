@@ -1,0 +1,145 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch
+          > braces > snapdragon > debug
+    - gatsby-plugin-advanced-sitemap > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-advanced-sitemap > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-plugin-create-client-paths > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-create-client-paths > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-plugin-manifest > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-manifest > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-plugin-pnpm > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-pnpm > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-plugin-postcss > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-postcss > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-plugin-react-helmet > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-plugin-react-helmet > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-remark-prismjs > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-remark-prismjs > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-source-filesystem > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-source-filesystem > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+    - gatsby-transformer-remark > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gatsby-transformer-remark > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug
+  'npm:ms:20170412':
+    - gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch
+          > braces > snapdragon > debug > ms
+    - gatsby-plugin-advanced-sitemap > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-advanced-sitemap > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-plugin-create-client-paths > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-create-client-paths > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-plugin-manifest > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-manifest > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-plugin-pnpm > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-pnpm > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-plugin-postcss > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-postcss > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-plugin-react-helmet > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-plugin-react-helmet > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-remark-prismjs > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-remark-prismjs > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-source-filesystem > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-source-filesystem > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
+    - gatsby-transformer-remark > gatsby > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon > debug > ms:
+        patched: '2026-01-12T07:37:12.141Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          gatsby-transformer-remark > gatsby > react-dev-utils >
+          fork-ts-checker-webpack-plugin > micromatch > braces > snapdragon >
+          debug > ms
