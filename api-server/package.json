@@ -67,7 +67,7 @@
     "node-fetch": "^2.6.7",
     "nodemailer-ses-transport": "1.5.1",
     "passport": "0.4.1",
-    "passport-auth0": "1.4.2",
+    "passport-auth0": "1.4.4",
     "passport-local": "1.0.0",
     "passport-mock-strategy": "2.0.0",
     "query-string": "6.14.0",
