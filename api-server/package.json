@@ -62,7 +62,7 @@
     "moment-timezone": "0.5.33",
     "mongodb": "3.6.9",
     "morgan": "1.10.0",
-    "nanoid": "3.3.4",
+    "nanoid": "3.3.8",
     "no-profanity": "^1.4.2",
     "node-fetch": "^2.6.7",
     "nodemailer-ses-transport": "1.5.1",
